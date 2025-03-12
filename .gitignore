@@ -1,0 +1,23 @@
+# Ignore virtual environment (use requirements.txt instead)
+bin/
+lib/
+include/
+etc/
+pyvenv.cfg
+
+# Ignore Python cache & system files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore shared/temporary files (if not needed)
+share/
+
+# Ignore datasets if large (optional)
+# data/
+# *.csv
+# *.json
+# *.xlsx
